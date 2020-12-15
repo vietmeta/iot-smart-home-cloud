@@ -18,6 +18,15 @@ for consumer smart home devices.
    *  When creating a new device entry, generate an **ES256** key. You can find
       details on creating an ES256 key pair
       [here](https://cloud.google.com/iot/docs/how-tos/credentials/keys#generating_an_es256_key).
+      ```
+      $ openssl ecparam -genkey -name prime256v1 -noout -out ec_private.pem
+      $ openssl req -x509 -new -key ec_private.pem -out ec_cert.pem -subj "/CN=unused"
+      ```
+      For Windows users, run on Git Bash:
+      ```
+      $ openssl ecparam -genkey -name prime256v1 -noout -out ec_private.pem
+      $ openssl req -x509 -new -key ec_private.pem -out ec_cert.pem -subj "//CN=unused"
+      ```
    *  Use `device-events` as the **Default telemetry topic**.
 
 1. Save the project values as environment variables so you can use them later on:
