@@ -50,9 +50,9 @@ for consumer smart home devices.
 1. Choose the name of your existing Google Cloud project under **Project name**,
    then select **IMPORT PROJECT**.
 1. Choose **Home control**, followed by **Smart home**.
-1. Select **Setup** → **Invocation** and give your action a name.
-1. Create a unique client id and secret that you will assign to Google for use
-   during smart home account linking.
+1. Select **Develop** → **Invocation** and give your action a name, click **Save**.
+1. Select **Develop** → **Account linking** Create a unique Client ID and Client secret that you will assign to Google for use
+   during smart home account linking, click **Save**.
 
    ```
    $ export CLIENT_ID=my-client-id
