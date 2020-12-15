@@ -27,6 +27,8 @@ the IoT devices registered to their account.
 
   ```
   $ npm install @angular/cli
+  $ npm install --save-dev @angular-devkit/build-angular
+  $ npm install --save firebase @angular/fire -f
   ```
 
 1. Build the application and start a local server instance
