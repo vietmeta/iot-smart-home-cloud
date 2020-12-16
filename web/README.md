@@ -40,6 +40,8 @@ the IoT devices registered to their account.
 Open `http://localhost:4200` in your browser.
 You should see the Device Manager login page.
 
+1. Active Sign-in method
+**Authentication** -> **Sign-in method** -> Google -> Enable
 ### Deploy to Firebase
 
 You can also deploy this application to Firebase Hosting with the rest of the
